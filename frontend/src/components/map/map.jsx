@@ -180,8 +180,6 @@ class Map extends React.Component {
 
   }
 
-
-
   updatePopups() {
     const { userMarkers, helpNeededMarkers, map } = this.state;
     const { activeTask } = this.props;
